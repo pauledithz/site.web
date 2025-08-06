@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Projets Web</title>
+    <style>
+        body {
+            background: #f5f6fa;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .message-box {
+            background: #fff;
+            padding: 2rem 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+            max-width: 500px;
+            text-align: center;
+        }
+        .message-box h1 {
+            color: #2d3436;
+            margin-bottom: 1rem;
+        }
+        .message-box p {
+            color: #636e72;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="message-box">
+        <h1>Bienvenue sur mon site de projets web</h1>
+        <p>
+            Je travaille sur différents projets de sites web et j'ai besoin de votre aide pour les améliorer.<br>
+            Ce site vous permet de découvrir mes réalisations de façon simple et agréable.<br>
+            N'hésitez pas à parcourir mes projets et à me faire part de vos retours.
+        </p>
+    </div>
+</body>
+</html>
